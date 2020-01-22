@@ -49,7 +49,7 @@ Si necesita ayuda, escribe directamente a <rodo@codeandomexico.org> o en nuestro
 
 4. Agrega una imagen del evento o una captura de pantalla de su sitio web en la carpeta [`assets/events`](https://github.com/CodeandoMexico/eventos-globales/tree/master/assets/events). Por favor asegúrate de que el nombre de la imagen sea el mismo que el del `evento` que agregaste en el nombre del archivo `AAAA-MM-DD-evento.md` (y no olvides agregar el nombre de la imagen en el campo correspondiente de dicho archivo).
 
-5. Crea un Pull Request (PR) de la rama que has creado a la rama `master` y solicita una revisión a [@RodolfoFerro](https://github.com/RodolfoFerro).
+5. Crea un Pull Request (PR) de la rama que has creado a la rama `master` y solicita una revisión a **@RodolfoFerro**.
 
 **NOTA:** Por favor realiza un PR por evento.
 
@@ -57,7 +57,7 @@ Si necesita ayuda, escribe directamente a <rodo@codeandomexico.org> o en nuestro
 
 ### Modifica el sitio
 
-Por favor abre un issue donde menciones los cambios que te gustaría agregar y menciona a [@RodolfoFerro](https://github.com/RodolfoFerro). En dado caso, se te asignaría el issue y esperaremos tu PR donde te pediremos solicites una revisión a [@RodolfoFerro](https://github.com/RodolfoFerro) para revisar y aceptar tus cambios al sitio.
+Por favor abre un issue donde menciones los cambios que te gustaría agregar y menciona a **@RodolfoFerro**. En dado caso, se te asignaría el issue y esperaremos tu PR donde te pediremos solicites una revisión a **@RodolfoFerro** para revisar y aceptar tus cambios al sitio.
 
 
 ## Atribuciones
