@@ -34,22 +34,24 @@ Si necesita ayuda, escribe directamente a <rodo@codeandomexico.org> o en nuestro
 
 ### Añade un evento
 
-1. Clona el repositorio:
+1. Crea un fork del repositorio a tu cuenta de GitHub.
+
+2. Clona tu fork del repo:
    ```bash
-   git clone https://github.com/CodeandoMexico/eventos-globales.git
+   git clone https://github.com/<TU-USUARIO>/eventos-globales.git
    cd eventos-locales/
    ```
 
-2. Crea una rama con el nombre del evento que deseas agregar, en este ejemplo supongamos que agregaré el evento [csv,conf,v5](https://csvconf.com/):
+3. Crea una rama con el nombre del evento que deseas agregar, en este ejemplo supongamos que agregaré el evento [csv,conf,v5](https://csvconf.com/):
    ```bash
    git checkout -b csvconf  # esto creará una nueva rama de nombre 'csvconf' y se moverá a ella
    ```
 
-3. Crea el archivo que contenga la información del evento. El archivo deberá ser guardado en la carpeta [`_posts`](https://github.com/CodeandoMexico/eventos-globales/tree/master/_posts) con el formato `AAAA-MM-DD-evento.md`, donde `AAAA`, `MM` y `DD` corresponden al año, mes y primer día de realización del evento, respectivamente. Puedes tomar como referencia el archivo del evento [csv,conf,v5](https://csvconf.com/), que encuentras como [`2020-05-13-csvconf.md`](https://github.com/CodeandoMexico/eventos-globales/blob/master/_posts/2020-05-13-csvconf.md).
+4. Crea el archivo que contenga la información del evento. El archivo deberá ser guardado en la carpeta [`_posts`](https://github.com/CodeandoMexico/eventos-globales/tree/master/_posts) con el formato `AAAA-MM-DD-evento.md`, donde `AAAA`, `MM` y `DD` corresponden al año, mes y primer día de realización del evento, respectivamente. Puedes tomar como referencia el archivo del evento [csv,conf,v5](https://csvconf.com/), que encuentras como [`2020-05-13-csvconf.md`](https://github.com/CodeandoMexico/eventos-globales/blob/master/_posts/2020-05-13-csvconf.md).
 
-4. Agrega una imagen del evento o una captura de pantalla de su sitio web en la carpeta [`assets/events`](https://github.com/CodeandoMexico/eventos-globales/tree/master/assets/events). Por favor asegúrate de que el nombre de la imagen sea el mismo que el del `evento` que agregaste en el nombre del archivo `AAAA-MM-DD-evento.md` (y no olvides agregar el nombre de la imagen en el campo correspondiente de dicho archivo).
+5. Agrega una imagen del evento o una captura de pantalla de su sitio web en la carpeta [`assets/events`](https://github.com/CodeandoMexico/eventos-globales/tree/master/assets/events). Por favor asegúrate de que el nombre de la imagen sea el mismo que el del `evento` que agregaste en el nombre del archivo `AAAA-MM-DD-evento.md` (y no olvides agregar el nombre de la imagen en el campo correspondiente de dicho archivo).
 
-5. Crea un Pull Request (PR) de la rama que has creado a la rama `master` y solicita una revisión a **@RodolfoFerro**.
+6. Crea un Pull Request (PR) de la rama que has creado a la rama `master` del repositorio original y solicita una revisión a **@RodolfoFerro**.
 
 **NOTA:** Por favor realiza un PR por evento.
 
