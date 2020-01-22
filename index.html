@@ -1,0 +1,67 @@
+---
+title: "Eventos globales"
+layout: default
+description: "Mapeo de eventos a nivel global sobre tecnología cívica y datos abiertos."
+---
+
+<div class="jumbotron jumbotron-fluid bg-teal">
+  <div class="container">
+    <div class="container">
+      <h1 class="display-4">¡Bienvenid@!</h1>
+      <p class="lead">Este sitio contiene un mapeo de <strong>eventos a nivel global</strong> sobre tecnología cívica y datos abiertos. Este es un proyecto de la <a target="_blank" class="text-indigo" href="http://slack.codeandomexico.org/">comunidad de Codeando México</a> para ti.</p>
+      <hr class="my-4">
+      <p><small>¿Deseas agregar un evento? <a target="_blank" class="text-indigo" href="https://github.com/CodeandoMexico/eventos-globales">Aprende cómo puedes contribuir.</a></small></p>
+    </div>
+  </div>
+</div>
+
+<section class="mt-4 mb-5">
+    
+    <div class="container mb-4">
+        <h1 class="font-weight-bold title">Explorar eventos</h1>    
+        <div class="row">
+        {% include menu-categories.html %}
+        </div>
+    </div>
+
+    
+<div class="container-fluid">
+    
+    <div class="card-columns">        
+        {% for post in paginator.posts reversed %}
+            {% include card-post.html %}
+        {% endfor %}            
+    </div>
+
+    <div class="row justify-content-center mt-5">
+     <!-- Pagination links -->
+        {% if paginator.total_pages > 1 %}
+        <div class="pagination"> 
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Anterior</a>
+          {% else %}
+            <span class="prev">&laquo; Anterior</span>
+          {% endif %}
+
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <span class="webjeda">{{ page }}</span>
+            {% elsif page == 1 %}
+              <a href="{{site.baseurl}}/">{{ page }}</a>
+            {% else %}
+              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+            {% endif %}
+          {% endfor %}
+
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Siguiente &raquo;</a>
+          {% else %}
+            <span class="next">Siguiente &raquo;</span>
+          {% endif %}
+        </div>
+        {% endif %}      
+    </div>
+
+</div>    
+  
+</section>

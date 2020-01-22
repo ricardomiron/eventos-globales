@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-22T03:34:38-06:00</updated><id>http://localhost:4000/</id><title type="html">Eventos globales</title><subtitle>Mapeo de eventos a nivel global sobre tecnología cívica y datos abiertos.</subtitle><entry><title type="html">RightsCon Costa Rica 2020</title><link href="http://localhost:4000/rightscon/" rel="alternate" type="text/html" title="RightsCon Costa Rica 2020" /><published>2020-06-09T00:00:00-05:00</published><updated>2020-06-09T00:00:00-05:00</updated><id>http://localhost:4000/rightscon</id><content type="html" xml:base="http://localhost:4000/rightscon/">&lt;h6 id=&quot;acerca-del-evento&quot;&gt;Acerca del evento&lt;/h6&gt;
+
+&lt;p&gt;RightsCon convoca a líderes empresariales, profesionales de políticas públicas, asesores generales, representantes gubernamentales, tecnólogos, académicos, periodistas y defensores de los derechos humanos de todo el mundo para abordar problemas urgentes en la intersección de los derechos humanos y la tecnología. En plenarias provocativas, talleres prácticos, mesas redondas, reuniones privadas y un animado espacio de exhibición, RightsCon reúne a la comunidad global para construir estrategias que impulsen el cambio.&lt;/p&gt;
+
+&lt;h6 id=&quot;detalles&quot;&gt;Detalles&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;📆 &lt;strong&gt;Fecha:&lt;/strong&gt; 06-12 de junio de 2020&lt;/li&gt;
+  &lt;li&gt;📍 &lt;strong&gt;Lugar:&lt;/strong&gt; San José, Costa Rica&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;temáticas&quot;&gt;Temáticas&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Elecciones, democracia y la reducción de los espacios cívicos&lt;/li&gt;
+  &lt;li&gt;Censura y libertad de expresión&lt;/li&gt;
+  &lt;li&gt;Privacidad y protección de datos&lt;/li&gt;
+  &lt;li&gt;Los medios en la era de la desinformación&lt;/li&gt;
+  &lt;li&gt;Interseccionalidad en internet&lt;/li&gt;
+  &lt;li&gt;Modelos alternativos para negocios por los derechos humanos&lt;/li&gt;
+  &lt;li&gt;Ciberseguridad y el futuro del cifrado&lt;/li&gt;
+  &lt;li&gt;Interrupciones de red y discriminación&lt;/li&gt;
+  &lt;li&gt;Justicia, jurisdicción y estado de derecho&lt;/li&gt;
+  &lt;li&gt;Innovations in sustainability and environmental justice&lt;/li&gt;
+  &lt;li&gt;Interrupción digital de la filantropía&lt;/li&gt;
+  &lt;li&gt;Moderación de contenido, responsabilidad de las plataformas&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Acerca del evento</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/rightscon.png" /></entry><entry><title type="html">csv,conf,v5</title><link href="http://localhost:4000/csvconf/" rel="alternate" type="text/html" title="csv,conf,v5" /><published>2020-05-13T00:00:00-05:00</published><updated>2020-05-13T00:00:00-05:00</updated><id>http://localhost:4000/csvconf</id><content type="html" xml:base="http://localhost:4000/csvconf/">&lt;h6 id=&quot;acerca-del-evento&quot;&gt;Acerca del evento&lt;/h6&gt;
+
+&lt;p&gt;Una conferencia de comunidad para creadores de datos en todas partes.&lt;/p&gt;
+
+&lt;p&gt;Con historias sobre el intercambio de datos y el análisis de datos de la ciencia, el periodismo, el gobierno y el código abierto.&lt;/p&gt;
+
+&lt;h6 id=&quot;detalles&quot;&gt;Detalles&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;📆 &lt;strong&gt;Fecha:&lt;/strong&gt; 13-14 de mayo de 2020&lt;/li&gt;
+  &lt;li&gt;📍 &lt;strong&gt;Lugar:&lt;/strong&gt; Universidad de California, Centro de Washington en Washington DC.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;temáticas&quot;&gt;Temáticas&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Construyendo comunidad&lt;/strong&gt;
+&lt;em&gt;csv,conf&lt;/em&gt; reúne a diversos grupos para discutir temas de datos y presenta historias sobre intercambio de datos y análisis de datos de ciencia, periodismo, gobierno y código abierto.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Gente que ama los datos&lt;/strong&gt;
+&lt;em&gt;csv,conf&lt;/em&gt; es una conferencia comunitaria sin fines de lucro dirigida por personas que realmente aman los datos y comparten conocimientos. Si eres tan apasionado por los datos y su aplicación en la sociedad como nosotros, entonces esta es la conferencia para ti.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Grande y pequeño&lt;/strong&gt;
+Las conferencias en &lt;em&gt;csv,conf&lt;/em&gt; no son solo hojas de cálculo. Seleccionan contenido sobre temas más amplios, como avanzar en el arte de la colaboración de datos, desde poner tus datos en GitHub hasta producir información significativa ejecutando el procesamiento distribuido a gran escala en un clúster.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Acerca del evento</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/csvconf.png" /></entry></feed>

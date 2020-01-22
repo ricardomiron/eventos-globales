@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<section class="bg-gray200 pt-5 pb-5">    
+    <div class="container">
+    	<div class="row justify-content-center">
+    		<div class="col-md-8">
+                
+    			<article class="card">
+                    
+                {% if page.image %} 
+                    <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ absolute_url }}../assets/events/{{ page.image }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+                    
+    			<div class="card-body">
+                    
+    				<h1 class="display-4">
+    				    {{page.title}} 
+                    </h1>                    
+                     
+                    <small class="text-muted d-block mb-3">
+                        {% unless page.metadate == "hide" %} 
+                            <!-- {{ page.date | date: '%B %d, %Y' }}  -->
+                            {% assign months = "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre" | split: "|" %}
+                            {% assign m = page.date | date: "%-m" | minus: 1 %}
+                            {% assign day = page.date | date: "%d" %}
+                            {% assign month = months[m] %}
+                            {% assign year = page.date | date: "%Y" %}
+                            {{ month }} {{ day }}, {{ year }}
+                        {% endunless %}
+                        {% if page.author %}
+                            , by {{page.author | capitalize}} 
+                        {% endif %}
+                    </small>                    
+                    
+    				{{ content }}
+                    
+                    {% if page.visit %}
+                    <p><a target="_blank" href="{{page.visit}}" class="btn btn-gray text-dark d-block font-weight-bold">
+                        Visitar sitio del evento <i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                    {% endif %}
+                    
+                    {% for category in page.categories %}
+                      <a class="btn btn-sm btn-indigo mt-2" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
+                        # {{ category | downcase }}
+                      </a>
+                    {% endfor %}
+                    
+    			</div>  
+                    
+    			</article>
+                
+                <div class="PageNavigation">
+                  {% if page.next.url %}
+                    <a class="prev" href="{{site.baseurl}}{{page.next.url}}"><i class="fa fa-angle-left"></i> </a>
+                  {% endif %}
+                  {% if page.previous.url %}
+                    <a class="next" href="{{site.baseurl}}{{page.previous.url}}"><i class="fa fa-angle-right"></i></a>
+                  {% endif %}
+                </div>
+                
+    		</div>
+    	</div>
+    </div>
+</section>

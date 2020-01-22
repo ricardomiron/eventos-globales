@@ -1,0 +1,53 @@
+# Site
+name: 'Eventos globales'
+description: 'Mapeo de eventos a nivel global sobre tecnología cívica y datos abiertos.'
+logo: 'assets/images/logo.png'
+logo_full: 'assets/images/codeandomexico.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+email: 'equipo@codeandomexico.org'
+
+include: ["_pages"]
+permalink: /:title/
+future: true
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [
+  README.md,
+  package.json,
+  grunt.js,
+  Gruntfile.js,
+  Gruntfile.coffee,
+  node_modules
+]
