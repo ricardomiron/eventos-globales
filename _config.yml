@@ -4,7 +4,7 @@ description: 'Mapeo de eventos a nivel global sobre tecnología cívica y datos 
 logo: 'assets/images/logo.png'
 logo_full: 'assets/images/codeandomexico.png'
 favicon: 'assets/images/logo.png'
-baseurl: ''
+baseurl: '/eventos-globales/'
 email: 'equipo@codeandomexico.org'
 
 include: ["_pages"]
