@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/csvconf/</loc>
+<loc>http://localhost:4000/eventos-globales/csvconf/</loc>
 <lastmod>2020-05-13T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/rightscon/</loc>
+<loc>http://localhost:4000/eventos-globales/rightscon/</loc>
 <lastmod>2020-06-09T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/acerca-de</loc>
+<loc>http://localhost:4000/eventos-globales/acerca-de</loc>
 </url>
 <url>
-<loc>http://localhost:4000/categorias</loc>
+<loc>http://localhost:4000/eventos-globales/categorias</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/eventos-globales/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/privacy-policy.html</loc>
+<loc>http://localhost:4000/eventos-globales/privacy-policy.html</loc>
 </url>
 </urlset>

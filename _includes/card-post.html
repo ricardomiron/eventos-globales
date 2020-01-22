@@ -34,7 +34,7 @@
     
         <a href="{{site.baseurl}}{{post.url}}">
          
-        <img class="card-img" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ absolute_url }}../assets/events/{{ post.image }}{% endif %}" alt="{{ post.title }}">             
+        <img class="card-img" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ absolute_url }}assets/events/{{ post.image }}{% endif %}" alt="{{ post.title }}">             
         
             <div class="notraco">
                 <h2 class="card-title title">{{ post.title }}</h2>
